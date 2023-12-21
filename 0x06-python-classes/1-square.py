@@ -3,6 +3,7 @@
 """ Package providing information on class 'square' 
 """
 
+
 Class Square():
     """ Declaration of 'Square'
     """

@@ -3,6 +3,7 @@
 """ Library providing a definition of a class 'Square'
 """
 
+
 class Square():
     """ Declaration of a 'Square'
     """
