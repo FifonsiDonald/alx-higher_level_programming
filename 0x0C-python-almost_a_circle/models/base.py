@@ -1,14 +1,20 @@
 #!/usr/bin/python3
-"""reate a new class Base"""
+"""Module with new class Base"""
 from os import path
 import json
 
 
 class Base:
-	""" """
+	""" Class base for all base functions"""
 	__nb_objects = 0
 
 	def __init__(self, id=None):
+	"""Method that assign the public instance attribute id
+	Args:
+		id(int): integer value to manage id in this project
+	Return:
+		Always nothing.
+	"""
 		if id is not None:
 			self.id = id
 		else:
